@@ -1,4 +1,4 @@
-modules = ["python-3.10", "nix"]
+modules = ["bash", "nix", "nodejs-20", "python-3.10"]
 
 hidden = [".pythonlibs"]
 run = "flask run -h 0.0.0.0 -p 8080 --reload"
